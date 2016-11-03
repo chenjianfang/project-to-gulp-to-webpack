@@ -1,34 +1,3 @@
-//----自定义
-// var sourceFile_js = "./src/js/"; //js的源文件
-// var getFile_js = "./dist/js/"; //生成js的目录 小心
-
-// var sourceFile_scss = "./src/scss/";  //scss源文件
-// var getFile_css = "./dist/css/" //生成css的目录 小心
-
-
-// var projectName = "test";
-// var fileUrl = {
-// 	"sj" : "./src/js/", //js的源文件
-// 	"gj" : "../../js/new/", //生成js的目录 小心
-// 	"sc" : "./src/scss/",  //scss源文件
-// 	"gc":"../../css/new/" //生成css的目录 小心
-// };
-
-
-// var projectName = "AAA";
-// var fileUrl = {
-// 	"sj":"./src/js/",
-// 	"gj":"../../js/new/",
-// 	"sc":"./src/scss/",
-// 	"gc":"../../css/new/"
-// };
-
-
-
-// var webpackBool = true;
-
-// gulpTask(projectName,fileUrl,webpackBool);
-
 
 gulpTask("AAA",{
 	"sj":"src/js/",
